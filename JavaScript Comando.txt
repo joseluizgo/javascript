@@ -1,0 +1,12 @@
+JavaScript Comando
+
+window.alert('mensagem') = fazer um alerta na tela com uma mensagem
+
+window.confirm('mensagem') = fazer uma mensagem com confirmação aparecer na tela
+
+window.prompt('pergunta') = fazer uma pergunta aparecer com um input de escrever
+
+um unico sinal de = é RECEBE 
+dois sinais de == é igual
+
+var == a variavel
