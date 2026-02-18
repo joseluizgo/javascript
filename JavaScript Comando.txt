@@ -62,3 +62,17 @@ mousedown
 mouseup
 click
 mouseout
+
+
+condiçoes
+
+condiçoes simples :
+if (condiçao) {
+    true
+}
+-----------------
+if (condiçao) {
+    true
+} else {
+    False
+}
