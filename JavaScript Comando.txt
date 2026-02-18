@@ -10,3 +10,40 @@ um unico sinal de = é RECEBE
 dois sinais de == é igual
 
 var == a variavel
+
+operadores aritmetricos
++ soma
+- sub
+* mul
+/ divid
+% resto da /
+** raiz
+
+hierarquia: 
+
+()
+**
+/*%
++-
+
+simplificar
++= soma
+-=sub e afins
+n++ soma mais um
+
+relacionais 
+
+> maior q
+< menor q 
+>= maior ou igual
+<= menor ou igual
+== igual
+=== identico
+
+logicos 
+
+! negação - nao
+&& conjução - e
+|| disjunção - ou
+
+teste?true:false
