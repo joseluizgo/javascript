@@ -47,3 +47,18 @@ logicos
 || disjunção - ou
 
 teste?true:false
+
+Dom
+
+window.document.querySelector('h1#ti')
+addEventListeners
+
+eventos
+
+mouse:
+mouseenter
+mousemove
+mousedown
+mouseup
+click
+mouseout

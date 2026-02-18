@@ -3,23 +3,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ecentos DOM</title>
+    <title>Eventos DOM</title>
     <style>
-        body {
-            width: 99%;
-            height: 96vh;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-        }
-
         div#area {
             display: flex;
             justify-content: center;
+            align-items: center;
             background-color: green;
             color: white;
             width: 200px;
-            height: 100px;
+            height: 200px;
+            font-size: 2em;
         }
     </style>
 </head>
@@ -28,5 +22,26 @@
         Interaja
     </div>
     
+    <script>
+            var a = Window.document.getElementById('area')
+            a.addEventListener('click', clicar)
+            a.addEventListener('mouseenter', entrar)
+            a.addEventListener('mouseout', sair)
+            
+
+        function clicar() {
+            a.innerText = 'clicou!'
+            a.style.background = 'red'
+        }
+
+        function entrar() {
+            a.innerText = 'Entrou!'
+        }
+
+        function sair() {
+            a.innerText = 'Saiu!'
+            a.style.background = 'green'
+        }
+    </script>
 </body>
 </html>
