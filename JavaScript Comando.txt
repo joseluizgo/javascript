@@ -76,3 +76,25 @@ if (condiçao) {
 } else {
     False
 }
+----------------
+if (condição) {
+    true
+} else if (condição) {
+    true
+} else {
+    false
+}
+----------------
+switch (expresao) {
+    case valor 1:
+        bloco
+    break;;
+    case valor 2:
+        bloco
+    break;
+    case valor 3:
+        bloco
+    break;
+
+    default:
+}
