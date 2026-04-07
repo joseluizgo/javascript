@@ -1,0 +1,1 @@
+/* Arquivo JS aula 07 DOM */
