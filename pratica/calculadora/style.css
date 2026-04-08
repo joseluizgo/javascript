@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-image: url(https://media.istockphoto.com/id/1365125616/pt/foto/wood-texture-with-natural-pattern-dark-wooden-background-brown-board.jpg?s=612x612&w=0&k=20&c=CNgpCDpz3hUWEfkRu06K2oMQnA8_aIwvxWFHY_5c0mE=);
+    background-position: center center;
+}
+
+.calculadora {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    border-radius: 10px;
+    padding: 20px;
+
+    background-color: rgb(58, 58, 58);
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.596);
+}
+
+.resul {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+
+    font-size: 2.5em;
+
+    width: 100%;
+    margin: 10px;
+    padding: 15px;
+    border-radius: 10px;
+
+    background-color: #161616;
+    color: #fff;
+}
+
+.teclas {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.l-teclas {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    gap: 5px;
+
+    width: 100%;
+}
+
+.tecla {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    width: 4rem;
+    height: 4rem;
+    border-radius: 15px;
+
+    font-size: 1em;
+    
+    background-color: rgb(94, 94, 94);
+    color: #fff;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.192);
+}
+
+#zero {
+    width: 100%;
+}
+
+#igual {
+    width: 60%;
+}
