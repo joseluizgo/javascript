@@ -1,10 +1,14 @@
 let btndark = document.querySelector('#btdark')
 let btnlight = document.querySelector('#btlight')
+let btnmode = document.querySelector('#btmod')
 let fundo = document.querySelector('body')
 let text = document.querySelector('h1')
 
 btndark.addEventListener('click', fdark)
 btnlight.addEventListener('click', flight)
+btnmode.addEventListener('click', () => {
+    document.body.classList.toggle("dark")
+})
 
 function fdark() {
     fundo.classList.add('dark')

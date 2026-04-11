@@ -31,3 +31,30 @@ function somar (a, b) {
 function somar2(c, d) {
     return c + d
 }
+
+somar(x, y)
+somar(10, 5)
+
+document.write(`<p>${somar2(x, y)}</p>`)
+document.write(`<p>${somar2(5, 2)}</p>`)
+
+// Funcoes anonima = nao tem nome
+// pode ou nn ter parametros
+// pode ou n ter retorno
+titulo.addEventListener('click', function() {
+    console.log('Clicou no titulo')
+})
+
+// Aroow functions ES6 2015 em diante
+
+const olaMundoArrow = () => document.write("Olá mundo!!!!!")
+
+// nao precisa usar a palavra function
+// nao precisa usar a palavra return
+// nn usa nome na funcao
+// nao preicsa colocar { } se for so uma instrucao
+
+const olaMundo2Arrow = () => '<p>Olá mundo com arrow fuction</p>'
+
+olaMundoArrow()
+document.write(olaMundo2Arrow())
